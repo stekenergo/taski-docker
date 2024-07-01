@@ -173,7 +173,7 @@ python manage.py import_all_csv
 Получение всех задач: 
 
 ```
-POST /api/taski/
+GET /api/taski/
 ```
 
 # Автор <a id=6></a>
