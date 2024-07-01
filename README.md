@@ -170,14 +170,7 @@ python manage.py import_all_csv
 ```
 ## Примеры запросов к API <a id=5></a>
 
-Получение и удаление токена
-
-```
-POST /api/auth/token/login/
-POST /api/auth/token/logout/
-```
-
-Регистрация нового пользователя: 
+Получение всех задач: 
 
 ```
 POST /api/taski/
