@@ -51,7 +51,7 @@ mkdir taski
 ```bash
 scp /путь/к/файлу пользователь@хост:/путь/на/сервере/docker-compose.production.yml
 ```
-3. В директории foodgram создайте файл .env
+3. В директории taski создайте файл .env
 ```bash
 sudo nano .env
 ```
@@ -60,7 +60,7 @@ sudo nano .env
 POSTGRES_USER=django_user
 POSTGRES_PASSWORD=mysecretpassword
 POSTGRES_DB=django
-DB_NAME=foodgram 
+DB_NAME=taski 
 DB_HOST=db
 DB_PORT=5432
 SECRET_KEY=Key
@@ -113,18 +113,18 @@ sudo service nginx reload
 Удобно использовать при разработке.
 Клонировать репозиторий :
 ```bash
-git clone git@github.com:Master1941/foodgram-project-react.git
+git clone git@github.com:Master1941/taski-docker.git
 ```  
 создайте файл .env в дериктории `infra_dev`
 ```bash
-touch foodgram-project-react/infra_dev/.env
+touch taski-docker/infra_dev/.env
 ```
 пример заполнения файла .env
 ```python
 POSTGRES_USER=django_user
 POSTGRES_PASSWORD=mysecretpassword
 POSTGRES_DB=django
-DB_NAME=foodgram 
+DB_NAME=taski
 DB_HOST=db
 DB_PORT=5432
 SECRET_KEY=Key
